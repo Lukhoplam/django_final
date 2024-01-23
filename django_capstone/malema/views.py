@@ -6,6 +6,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def biography(request):
+    """displays biography page"""
     return render(request, 'biography.html')
 
 def life_and_education(request):
