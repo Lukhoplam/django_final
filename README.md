@@ -1,7 +1,7 @@
 # django_final
 ## introduction
 This is a political party website about malema's history and biography
-##instructions
+## instructions
 You will be woking on your terminal
 run PIP INSTALL VIRTUALENV
 clone the repo to your machine, git clone (repo-url).
