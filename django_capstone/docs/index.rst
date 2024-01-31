@@ -10,6 +10,11 @@ Welcome to capstone's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   installation
+   usage
+   api_reference
+
+
 
 
 Indices and tables
