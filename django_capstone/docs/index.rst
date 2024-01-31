@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to capstone's documentation!
-====================================
+=====================================
 
 .. toctree::
    :maxdepth: 2
@@ -13,9 +13,6 @@ Welcome to capstone's documentation!
    installation
    usage
    api_reference
-
-
-
 
 Indices and tables
 ==================
