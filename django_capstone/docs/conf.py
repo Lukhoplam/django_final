@@ -2,7 +2,7 @@ import os
 import sys
 import django
 sys.path.insert(0, os.path.abspath('..'))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'malema.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'django_capstone.settings'
 django.setup()
 
 # Configuration file for the Sphinx documentation builder.
@@ -20,7 +20,9 @@ author = 'lukho'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
